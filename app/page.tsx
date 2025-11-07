@@ -12,7 +12,7 @@ interface Todo {
   category: string
 }
 
-const DEFAULT_CATEGORIES = ["今日任务", "学习任务", "工作任务-远程"]
+const DEFAULT_CATEGORIES = ["今日任务", "学习任务-远程", "工作任务"]
 
 export default function Home() {
   const [categories, setCategories] = useState<string[]>(DEFAULT_CATEGORIES)
