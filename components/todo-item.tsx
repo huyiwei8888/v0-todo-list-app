@@ -8,6 +8,7 @@ interface TodoItemProps {
     id: string
     text: string
     completed: boolean
+    category: string
   }
   onToggle: (id: string) => void
   onDelete: (id: string) => void
@@ -32,6 +33,7 @@ export function TodoItem({ todo, onToggle, onDelete }: TodoItemProps) {
       >
         {todo.text}
       </span>
+      <span className="text-sm text-muted-foreground">{todo.category}</span>
       <Button
         onClick={() => onDelete(todo.id)}
         variant="ghost"
