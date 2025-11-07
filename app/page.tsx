@@ -14,7 +14,7 @@ interface Todo {
 
 const DEFAULT_CATEGORIES = ["今天的任务", "学习任务", "工作任务"]
 const name = 'huyiwei-local';
-const desc = 'this is remote github';
+const desc = 'this is local v0 test2';
 
 export default function Home() {
   const [categories, setCategories] = useState<string[]>(DEFAULT_CATEGORIES)
