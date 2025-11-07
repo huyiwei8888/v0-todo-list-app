@@ -15,6 +15,7 @@ interface Todo {
 const DEFAULT_CATEGORIES = ["今天的任务", "学习任务", "工作任务"]
 const name = 'huyiwei-local';
 const desc = 'this is local v0 test2';
+const title = 'happy birthday - local v0';
 
 export default function Home() {
   const [categories, setCategories] = useState<string[]>(DEFAULT_CATEGORIES)
