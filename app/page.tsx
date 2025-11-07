@@ -13,6 +13,7 @@ interface Todo {
 }
 
 const DEFAULT_CATEGORIES = ["今天的任务", "学习任务", "工作任务"]
+const name = 'weiwei';
 
 export default function Home() {
   const [categories, setCategories] = useState<string[]>(DEFAULT_CATEGORIES)
